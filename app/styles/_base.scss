@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+
+  background: $brand-background;
+  color: $brand-primary;
+
+  font-family: sans-serif;
+}
+
+a {
+  color: $brand-primary;
+
+  text-decoration: none;
+
+  &:hover {
+    color: darken($brand-secondary, 7%);
+    cursor: pointer;
+  }
+}

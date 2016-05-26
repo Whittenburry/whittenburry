@@ -1,0 +1,41 @@
+.dashboard {
+  width: 100%;
+
+  background: $brand-light-backrground;
+  &__inner-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: $max-content-width;
+
+    margin: auto;
+  }
+
+  &__fields {
+    margin: $gutter;
+  }
+
+  &__me {
+    display: flex;
+    flex-direction: column;
+
+    &__name {
+      margin: 0;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__contact {
+    padding: $spacing / 2 0;
+  }
+
+  &__nav-links {
+    margin: $spacing;
+
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+}
